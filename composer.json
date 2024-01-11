@@ -1,0 +1,19 @@
+{
+    "name": "kamrul/crud",
+    "description": "simple package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Crud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crud\\MyPackageServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
